@@ -1,15 +1,16 @@
 # Craft CMS Project Boilerplate
 
-This is the project scaffolding MilesHerndon uses for all of our Craft CMS projects.
+This is the project scaffolding used for all of my Craft CMS projects.
 
 ##### Table of Contents
 
-1. [Dependencies](#Dependencies)
-1. [Installation](#Installation)
+1. [Dependencies](#dependencies)
+1. [Installation](#installation)
 1. [Workflow](#workflow)
 1. [Under the Hood](#under-the-hood)
-1. [Key Collaborators](#key Collaborators)
+1. [Key Collaborators](#key-collaborators)
 1. [License](#license)
+
 
 *****
 
@@ -20,7 +21,9 @@ This is the project scaffolding MilesHerndon uses for all of our Craft CMS proje
 
 _[Back to top](#table-of-contents)_
 
+
 *****
+
 
 ## Installation
 
@@ -32,7 +35,9 @@ $ npm install
 
 _[Back to top](#table-of-contents)_
 
+
 *****
+
 
 ## Workflow
 
@@ -45,12 +50,14 @@ After running `` $ npm run watch `` or `` $ npm run build ``, your deploy-ready 
 
 _[Back to top](#table-of-contents)_
 
+
 *****
+
 
 ## Under the Hood
 This project scaffolding is pretty opinionated and makes use of the following tools, open source projects, and architecture methodologies:
 
-* [Webpack](https://webpack.js.org/) - A bundler for javascript and friends.
+* [webpack](https://webpack.js.org/) - A bundler for javascript and friends.
 * [Sass](http://sass-lang.com/) - CSS extension language
 * [ECMAScript 2015 modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/New_in_JavaScript/ECMAScript_2015_support_in_Mozilla) - JavaScript's built-in modules.
 * [SMACSS](https://smacss.com/) - Methodology for organizing scalable and modular CSS architectures
@@ -62,16 +69,21 @@ This project scaffolding is pretty opinionated and makes use of the following to
 
 _[Back to top](#table-of-contents)_
 
+
 *****
+
 
 ## Key Collaborators
 Thanks to our developers who made this Craft CMS project scaffolding possible.
 * [Mark Reckard](https://github.com/marker004)
 * [Matthew Soyka](https://github.com/m-soyka)
+* [MilesHerndon](https://github.com/milesherndon)
 
 _[Back to top](#table-of-contents)_
 
+
 *****
+
 
 ## License
 
