@@ -1,0 +1,38 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+
+/* AGENCY */
+
+Name: MilesHerndon
+Website: https://milesherndon.com/
+GitHub: https://github.com/MilesHerndon
+Location: Indianapolis, Indiana, USA.
+
+
+[......]
+
+
+/* TEAM */
+
+Name: Matthew A. Soyka
+GitHub: https://github.com/m-soyka
+Location: Indianapolis, Indiana, USA.
+
+Name: Mark Reckard
+GitHub: https://github.com/marker004
+Location: Indianapolis, Indiana, USA.
+
+
+[......]
+
+
+/* BOILERPLATE */
+
+Last update: 03/27/2017
+
+Standards: HTML5, CSS3, Sass
+
+Components: Modernizr, Normalize.css, svg4everybody
+
+Software: Git, npm

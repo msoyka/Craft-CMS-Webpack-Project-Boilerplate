@@ -1,0 +1,23 @@
+### macOS ###
+*.DS_Store
+.AppleDouble
+.LSOverride
+
+### NODE ###
+node_modules/
+# Logs
+logs
+*.log
+npm-debug.log*
+
+### Bower ###
+bower_components
+.bower-cache
+.bower-registry
+.bower-tmp
+
+### CraftCMS [http://buildwithcraft.com/help/craft-storage-gitignore] ###
+/craft/storage/*
+!/craft/storage/logo/*
+!/craft/storage/rebrand/*
+!/craft/storage/.gitignore

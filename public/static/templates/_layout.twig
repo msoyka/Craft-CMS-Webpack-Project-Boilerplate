@@ -1,0 +1,24 @@
+{% extends "_webpack.templates/_webpack.template.wrapper" %}
+
+
+{# HEADER #}
+{% block header %}
+	<h1><a href="{{ siteUrl }}">{{ siteName }}</a></h1>
+	<nav>
+		<ul>
+			<li><a href="{{ url('news') }}" {% if craft.request.firstSegment == 'news' %}class="active"{% endif %}>News</a></li>
+		</ul>
+	</nav>
+{% endblock %}
+
+{# MAIN #}
+{% block main %}
+	<p>If you see me, you haven’t set your <code>{% verbatim %}{% block content %}…{% endblock %}{% endverbatim %}</code> yet.</p>
+	<p>See Twig’s <a href="http://twig.sensiolabs.org/doc/templates.html#template-inheritance">Template Inheritance</a> documentation for an explanation.</p>
+{% endblock %}
+
+
+{# FOOTER #}
+{% block footer %}
+	Copyright {{ now.year }} {{ craft.request.serverName | ucfirst }}. All rights reserved  •  Built with <a href="http://craftcms.com">Craft</a>
+{% endblock %}

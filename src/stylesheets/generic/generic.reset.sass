@@ -1,0 +1,43 @@
+/**
+  * "CSS Reset" GENERIC - ITCSS Methodology
+  *
+  * The Generic layer is houses very high-level, far reaching styles that are commonly used on every web project.
+  *
+  * These are CSS Reset styles that add onto normalize.css.
+  **/
+
+
+
+/**
+  * As well as using normalize.css, it is often advantageous to remove all
+  * margins from certain elements.
+
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, dl, dd, ol, ul, form, fieldset, legend, figure, table, th, td, caption, hr
+  margin: 0
+  padding: 0
+
+/**
+  * Remove the default font-weight so we can control this with our
+  * typography classes
+
+h1, h2, h3, h4, h5, h6
+  font-weight: normal
+
+/**
+  * Give a help cursor to elements that give extra info on `:hover`.
+
+abbr[title], dfn[title]
+  cursor: help
+
+/**
+  * Remove underlines from potentially troublesome elements.
+
+u
+  text-decoration: none
+
+ins
+  text-decoration: none
+  border-bottom: 1px solid
+
+/**
+  * Apply faux underlines to inserted text via `border-bottom`.

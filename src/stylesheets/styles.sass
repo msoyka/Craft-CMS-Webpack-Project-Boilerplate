@@ -1,0 +1,131 @@
+@charset "UTF-8"
+
+/** ======================================================================================================
+  * Styles via ITCSS Methodology
+  *
+  * This is where all of the stylesheets are compiled.
+  * They are processed in the order they are imported to ensure the consistent increase of specificity.
+  * ====================================================================================================== */
+
+
+/**
+  * |=====================================================================================================================|
+  * | TABLE OF CONTENTS (ITCSS HIERARCHY OF SPECIFICITY)
+  * |=====================================================================================================================|
+  * | I. SETTINGS
+  * |   > The Settings layer does not contain any styles.
+  * |     It only houses variables and other configuration needs.
+  * |
+  * |   > Examples: breakpoints, animations, colors, spacers, font-size, line height
+  * |––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––|
+  * | II. GENERIC
+  * |   > The Generic layer is houses very high-level, far reaching styles
+  * |     that are commonly used on every web project.
+  * |
+  * |   > Example: Normalize.css, Box-sizing, Form Input Resets, Headings Reset, etc.
+  * |––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––|
+  * | III. TOOLS
+  * |   > Mixins and functions that are used to make it easy to
+  * |     apply commonly used code chunks and logic to the other elements.
+  * |
+  * |   > Example: positions, text-sizes, media-queries, fonts, cursors, etc.
+  * |––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––|
+  * | IV. UTILITIES
+  * |   > Classes that can be applied to html elements or used within tools
+  * |     and other modules / frameworks to help with DRY coding techniques
+  * |   > Utilities help seperate general global styles to increaases flexiblity
+  * |     and can be added and changed freely.
+  * |
+  * |   > Examples: color, font, text-size, padding, align, background, etc.
+  * |––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––|
+  * | V. ELEMENTS
+  * |   > All style directly associated to the html selectors.
+  * |
+  * |   > Example: h1...h6, p, blockquote, body, html, hr, ul, ol, li, etc...
+  * |––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––|
+  * | VI. BUILDING BLOCKS
+  * |   > All modules that are the smallest building block pieces that
+  * |     will be used to create modules and frameworks in the form of macros.
+  * |     These are simliar to elements, but they are styles using classes,
+  * |     not the html element themselves.
+  * |
+  * |   > Example: svgs, button, links, ux, inputs, responsive images, etc.
+  * |––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––|
+  * | VII. MODULES
+  * |   > Modules are coding the main coding chunks of the project.
+  * |     These utilize building blocks and custom styles and are placed within frameworks.
+  * |
+  * |   > These pieces fit inside frameworks, but understanding the seperation can be subjective
+  * |
+  * |   > Example: navigation, banner, hero-banner,
+  * |––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––|
+  * | VIII. FRAMEWORKS
+  * |   > Frameworks are pices of code that wrap around modules to ensure
+  * |     they are correctly layed out on the browser window.
+  * |     Generally associated with custom grid.
+  * |
+  * |   > These pieces fit inside frameworks, but understanding the seperation can be subjective
+  * |
+  * |   > Example: main-header, main-footer, sidebar, line-break grid, lightbox grid, thirds grid, etc.
+  * |––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––|
+  * | IX. TRUMPS
+  * |   > All styles that must always trump all other styles.
+  * |     Therefor, they all have the !important tag attached to them.
+  * |––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––|
+  **/
+
+
+
+
+/** ==========================================================================
+  * I. SETTINGS
+  * ========================================================================== **/
+@import "settings/_settings.styles"
+
+
+/** ==========================================================================
+  * II. GENERIC
+  * ========================================================================== **/
+@import "generic/_generic.styles"
+
+
+/** ==========================================================================
+  * III. TOOLS
+  * ========================================================================== **/
+@import "tools/_tools.styles"
+
+
+/** ==========================================================================
+  * IV. UTILITIES
+  * ========================================================================== **/
+@import "utilities/_utilities.styles"
+
+
+/** ==========================================================================
+  * V. ELEMENTS
+  * ========================================================================== **/
+@import "elements/_elements.styles"
+
+
+/** ==========================================================================
+  * VI. BUILDING BLOCKS
+  * ========================================================================== **/
+@import "buildingblocks/_buildingblocks.styles"
+
+
+/** ==========================================================================
+  * VII. MODULES
+  * ========================================================================== **/
+@import "modules/_modules.styles"
+
+
+/** ==========================================================================
+  * VIII. FRAMEWORKS
+  * ========================================================================== **/
+@import "frameworks/_frameworks.styles"
+
+
+/** ==========================================================================
+  * IX. TRUMPS
+  * ========================================================================== **/
+@import "trumps/_trumps.styles"

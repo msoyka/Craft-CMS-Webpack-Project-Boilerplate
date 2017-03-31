@@ -1,0 +1,33 @@
+/**
+  * "Position" TOOLS - ITCSS Methodology
+  *
+  * Mixins and functions that are used to make it easy to apply commonly used code chunks and logic to the other elements.
+  *
+  **/
+
+
+=position-full($important: false)
+  $important-rule: if( $important, !important, null )
+  top: 0 $important-rule
+  right: 0 $important-rule
+  bottom: 0 $important-rule
+  left: 0 $important-rule
+
+
+=position-perfect-center($important: false)
+  $important-rule: if( $important, !important, null )
+  top: 50% $important-rule
+  left: 50% $important-rule
+  transform: translateX(-50%) translateY(-50%) $important-rule
+
+
+=position-vertical-center($important: false)
+  $important-rule: if( $important, !important, null )
+  top: 50% $important-rule
+  transform: translateY(-50%) $important-rule
+
+
+=position-horizontal-center($important: false)
+  $important-rule: if( $important, !important, null )
+  left: 50% $important-rule
+  transform: translateX(-50%) $important-rule

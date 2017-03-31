@@ -1,0 +1,14 @@
+/**
+  * "Fonts" TOOLS - ITCSS Methodology
+  *
+  * Mixins and functions that are used to make it easy to apply commonly used code chunks and logic to the other elements.
+  *
+  **/
+
+
+=Sample-Font($important: false)
+  $important-rule: if( $important, !important, null )
+
+  font-family: sans-serif $important-rule
+  font-style: normal $important-rule
+  font-weight: 400 $important-rule
