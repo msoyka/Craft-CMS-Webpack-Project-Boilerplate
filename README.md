@@ -1,6 +1,6 @@
 # Craft CMS Project Boilerplate
 
-This is the project scaffolding used for all of my Craft CMS projects.
+This is the project scaffolding used for all of my Craft CMS projects. It integrates the [Augmented ITCSS Architecture](https://github.com/m-soyka/Augmented-ITCSS-Architecture), as well as the [Craft CMS Template Scaffolding](https://github.com/m-soyka/Craft-CMS-Template-Scaffolding).
 
 ##### Table of Contents
 
